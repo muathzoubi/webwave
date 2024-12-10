@@ -9,9 +9,9 @@ export function AboutMe() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
-            <Image
-              src="/placeholder.svg?height=400&width=400"
-              alt="John Doe"
+            <img
+              src="/logo-app.png"
+              alt="logo"
               width={400}
               height={400}
               className="rounded-full border-4 border-[#FFD700]"

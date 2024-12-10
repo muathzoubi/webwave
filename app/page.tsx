@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer"
 import { AboutMe } from "@/components/about"
 import { useEffect } from "react"
 import AOS from 'aos'
+import { ContactMe } from "@/components/contact-me"
 export default function Home() {
   useEffect(()=>{
     AOS.init();
@@ -21,6 +22,7 @@ export default function Home() {
         <Services />
         <AboutMe/>
         <WhyChooseUs />
+        <ContactMe/>
       </main>
       <Footer />
     </div>
