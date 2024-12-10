@@ -6,6 +6,7 @@ import { OurProducts } from "@/components/our-products"
 import { WhyChooseUs } from "@/components/why-choose-us"
 import { Footer } from "@/components/footer"
 import { AboutMe } from "@/components/about"
+import { Partners } from "@/components/partners"
 import { useEffect } from "react"
 import AOS from 'aos'
 import { ContactMe } from "@/components/contact-me"
@@ -22,6 +23,7 @@ export default function Home() {
         <Services />
         <AboutMe/>
         <WhyChooseUs />
+        <Partners/>
         <ContactMe/>
       </main>
       <Footer />
