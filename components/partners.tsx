@@ -6,6 +6,7 @@ const partners = [
   { name: 'Motion Framer', logo: '/103.png' },
   { name: 'Stackblitz ', logo: '/104.png' },
   { name: 'Tailwind CSS ', logo: '/106.png' },
+  { name: 'Codesandbox ', logo: '/108.png' },
 ]
 
 export function Partners() {
@@ -19,8 +20,8 @@ export function Partners() {
               <Image
                 src={partner.logo}
                 alt={`${partner.name} logo`}
-                width={80}
-                height={80}
+                width={50}
+                height={50}
                 className="max-w-full h-auto grayscale hover:grayscale-0 transition-all duration-300"
               />
             </div>
