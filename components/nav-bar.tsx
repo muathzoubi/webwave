@@ -29,7 +29,7 @@ export function NavBar() {
         <Link href="#ourProducts" >    <Button variant="ghost">Products</Button></Link>
         <Link href="#services" >   <Button variant="ghost">Services</Button></Link>
         <Link href="#about" >     <Button variant="ghost">About</Button></Link>
-        <Link href="#contact" >      <Button variant="ghost">Contact</Button></Link>
+        <Link href="#contact-me" >      <Button variant="ghost">Contact</Button></Link>
         </nav>
         <div className="flex items-center gap-4">
           <Button className="hidden md:flex">Get a Quote</Button>
