@@ -32,7 +32,7 @@ export function NavBar() {
         <Link href="#contact-me" >      <Button variant="ghost">Contact</Button></Link>
         </nav>
         <div className="flex items-center gap-4">
-          <Button className="hidden md:flex">Get a Quote</Button>
+            <Link href="#contact-me">    <Button className="hidden md:flex">Get a Quote</Button></Link>
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
