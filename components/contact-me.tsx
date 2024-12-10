@@ -24,12 +24,12 @@ export function ContactMe() {
   return (
     <section className=" py-20" id="contact-me">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Contact Me</h2>
-        <div className="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+        <h2 className="text-3xl font-bold text-gray-300 text-center mb-8">Contact Me</h2>
+        <div className="max-w-md mx-auto rounded-lg shadow-md overflow-hidden">
           <div className="p-6">
             <form onSubmit={handleSubmit}>
               <div className="mb-4">
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">Name</label>
                 <Input
                   type="text"
                   id="name"
@@ -41,7 +41,7 @@ export function ContactMe() {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">Email</label>
                 <Input
                   type="email"
                   id="email"
@@ -53,7 +53,7 @@ export function ContactMe() {
                 />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">Message</label>
                 <Textarea
                   id="message"
                   value={message}
@@ -64,7 +64,7 @@ export function ContactMe() {
                   rows={4}
                 />
               </div>
-              <Button type="submit" className="w-full bg-gradient-to-r from-[#FFD700] to-blue-300 bg-clip-text text-transparent">
+              <Button type="submit" className="w-full bg-gradient-to-r from-[#FFD700] to-blue-300 ">
                 <Mail className="mr-2 h-4 w-4" /> Send Message
               </Button>
             </form>
