@@ -1,4 +1,4 @@
-"use clinet"
+"use client"
 import { NavBar } from "@/components/nav-bar"
 import { Hero } from "@/components/hero"
 import { Services } from "@/components/services"
