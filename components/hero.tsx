@@ -10,7 +10,7 @@ export function Hero() {
     data-aos-duration="2000">
       <div className="mx-auto max-w-7xl px-4 py-20 md:py-28 lg:py-32 relative z-10  h-full">
         <div className="flex flex-col items-center text-center">
-          <h1 className="max-w-4xl text-4xl font-bold md:text-6xl">
+          <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white md:text-6xl">
             Elevate Your Online Presence with{" "}
             <span className="bg-gradient-to-r from-[#FFD700] to-blue-300 bg-clip-text text-transparent">
               DesignWave

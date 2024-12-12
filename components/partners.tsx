@@ -14,7 +14,7 @@ export function Partners() {
     <section className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-gray-300 text-center mb-12">Our Trusted Partners</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
           {partners.map((partner) => (
             <div key={partner.name} className="flex justify-center">
               <Image
