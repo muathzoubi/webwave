@@ -17,19 +17,19 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-4">Services</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Web Design</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Web Development</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">E-commerce Solutions</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Digital Marketing</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Web Design</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Web Development</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">E-commerce Solutions</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Digital Marketing</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold text-lg mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">About Us</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Our Team</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Careers</Link></li>
-              <li><Link href="#" className="text-sm text-gray-500 hover:text-[#FFD700]">Contact</Link></li>
+              <li><Link href="#about-me" className="text-sm text-gray-500 hover:text-[#FFD700]">About Us</Link></li>
+              <li><Link href="#about-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Our Team</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Careers</Link></li>
+              <li><Link href="#contact-me" className="text-sm text-gray-500 hover:text-[#FFD700]">Contact</Link></li>
             </ul>
           </div>
           <div>
