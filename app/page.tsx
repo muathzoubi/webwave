@@ -16,7 +16,6 @@ export default function Home() {
   },[])
   return (
     <div className="flex min-h-screen flex-col">
-      <NavBar />
       <main className="flex-1">
         <Hero />
         <OurProducts />
@@ -26,7 +25,6 @@ export default function Home() {
         <Partners/>
         <ContactMe/>
       </main>
-      <Footer />
     </div>
   )
 }

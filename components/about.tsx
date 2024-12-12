@@ -3,7 +3,8 @@ import Image from "next/image"
 
 export function AboutMe() {
   return (
-    <section className="py-20 "  data-aos="flip-left"
+    <section className="py-20 " id="about-me"
+     data-aos="flip-left"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="2000">
       <div className="container mx-auto px-4">
@@ -14,7 +15,7 @@ export function AboutMe() {
               alt="logo"
               width={400}
               height={400}
-              className="rounded-full border-4 border-[#FFD700]"
+              className="rounded-full border-4 border-[#FFD700] "
             />
           </div>
           <div className="md:w-1/2 text-gray-400">

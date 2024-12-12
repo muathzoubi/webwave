@@ -6,6 +6,8 @@ import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import { NavBar } from "@/components/nav-bar"
+import { Footer } from "@/components/footer"
 
 export const metadata: Metadata = {
   title: {
@@ -40,9 +42,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+            <NavBar />
+
             <div className="relative flex min-h-screen flex-col">
               <div className="flex-1">{children}</div>
             </div>
+            <Footer />
             <TailwindIndicator />
           </ThemeProvider>
         </body>
