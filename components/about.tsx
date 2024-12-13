@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
+import Link from "next/link"
 
 export function AboutMe() {
   return (
@@ -29,9 +30,9 @@ export function AboutMe() {
             <p className="mb-6">
               When I'm not designing websites, you can find me exploring new design trends, mentoring aspiring designers, or enjoying a good cup of coffee while sketching new ideas.
             </p>
-            <Button className="bg-gradient-to-r from-[#FFD700] to-blue-400  hover:bg-indigo-700 tex-white">
+           <Link href='#contact-me'> <Button className="bg-gradient-to-r from-[#FFD700] to-blue-400  hover:bg-indigo-700 tex-white">
               Get in Touch
-            </Button>
+            </Button></Link>
           </div>
         </div>
       </div>

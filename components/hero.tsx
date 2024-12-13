@@ -12,7 +12,7 @@ export function Hero() {
       <div className="mx-auto max-w-7xl px-4 py-20 md:py-28 lg:py-32 relative z-10  h-full">
         <div className="flex flex-col items-center text-center">
           <h1 className="max-w-4xl text-4xl font-bold tracking-tight text-center text-transparent bg-gradient-to-t bg-clip-text from-zinc-100/50 to-white md:text-6xl">
-            Elevate Your Online Presence with{" "}
+          Empower Your Online Journey and Make It Happen with{" "}
             <span className="bg-gradient-to-r from-[#FFD700] to-blue-300 bg-clip-text text-transparent">
               DesignWave
             </span>
@@ -140,6 +140,10 @@ export function Hero() {
           ))}
         </svg>
       </div>
+      <div className="hover-content">
+    Hover over me!
+  </div>
+  <div className="overlay"></div>
     </div>
   )
 }
