@@ -140,10 +140,6 @@ export function Hero() {
           ))}
         </svg>
       </div>
-      <div className="hover-content">
-    Hover over me!
-  </div>
-  <div className="overlay"></div>
     </div>
   )
 }
