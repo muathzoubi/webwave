@@ -22,9 +22,11 @@ export function Hero() {
             From sleek corporate sites to dynamic e-commerce platforms, we bring your vision to life.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <Link href={'#contact-me'}>
             <Button size="lg" className="bg-gradient-to-r from-[#FFD700] to-blue-400  hover:text-white">
               Get a Free Consultation
             </Button>
+            </Link>
           <Link href="/portfolio">  <Button size="lg" variant="outline">
               View Our Portfolio
             </Button>
