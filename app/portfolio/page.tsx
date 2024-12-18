@@ -60,6 +60,16 @@ export default function Portfolio() {
             title: "Portfolio  App",
             image: "/me.avif",
             liveUrl: "https://muathalzoubi.netlify.app"
+        }, {
+            id: 10,
+            title: "Normar Dental Lab",
+            image: "/normar.avif",
+            liveUrl: "https://normar.netlify.app/"
+        }, {
+            id: 11,
+            title: "BAbalous Site",
+            image: "/bab.avif",
+            liveUrl: "https://babalous.netlify.app/"
         }
     ]
 
