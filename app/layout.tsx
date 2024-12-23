@@ -14,9 +14,6 @@ export const metadata: Metadata = {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
   },
-  openGraph:{
-    images:'/logo'
-  },
   description: siteConfig.description,
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
@@ -38,7 +35,11 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head />
-        <body
+        <body style={{
+          backgroundColor: 'hsl(224 71% 4%)',
+          backgroundImage: `radial-gradient(${'#111827'} 1px, ${'hsl(224 71% 4%)'} 1px)`,
+          backgroundSize: '16px 16px',
+        }}
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
             fontSans.variable
