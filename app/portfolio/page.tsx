@@ -45,9 +45,9 @@ export default function Portfolio() {
         },
         {
             id: 7,
-            title: "e-commerce App",
-            image: "/menu.png",
-            liveUrl: "https://menu-me-theta.vercel.app/"
+            title: "Basca App",
+            image: "/basca.jpeg",
+            liveUrl: "https://bascashortlinks.netlify.app/"
         },
         {
             id: 8,
@@ -70,6 +70,12 @@ export default function Portfolio() {
             title: "BAbalous Site",
             image: "/bab.avif",
             liveUrl: "https://babalous.netlify.app/"
+        },
+        {
+            id: 12,
+            title: "Reez App",
+            image: "/reez.jpeg",
+            liveUrl: "https://reez-util.netlify.app/"
         }
     ]
 
